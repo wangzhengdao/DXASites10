@@ -1,0 +1,9 @@
+{
+  "name": "environment",
+  "settings": "Tridion.ContentManager.ContentManagement.Fields.EmbeddedSchemaField",
+  "cmsurl": "http://amsvmpsdxadev01.global.sdl.corp:7086",
+  "mapsApiKey": "xxx",
+  "dataFormats": "json, rss, atom",
+  "culture": "en-US",
+  "language": "English"
+}

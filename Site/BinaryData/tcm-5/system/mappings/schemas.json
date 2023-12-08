@@ -1,0 +1,4184 @@
+[
+  {
+    "Id": 82,
+    "RootElement": "ArticleRegion",
+    "Fields": [],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "ArticleRegion"
+      }
+    ]
+  },
+  {
+    "Id": 189,
+    "RootElement": "ContentRegion",
+    "Fields": [],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "ContentRegion"
+      }
+    ]
+  },
+  {
+    "Id": 76,
+    "RootElement": "HeroRegion",
+    "Fields": [],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "HeroRegion"
+      }
+    ]
+  },
+  {
+    "Id": 172,
+    "RootElement": "InfoRegion",
+    "Fields": [],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "InfoRegion"
+      }
+    ]
+  },
+  {
+    "Id": 144,
+    "RootElement": "LeftRegion",
+    "Fields": [],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "LeftRegion"
+      }
+    ]
+  },
+  {
+    "Id": 123,
+    "RootElement": "LinksRegion",
+    "Fields": [],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "LinksRegion"
+      }
+    ]
+  },
+  {
+    "Id": 170,
+    "RootElement": "LogoRegion",
+    "Fields": [],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "LogoRegion"
+      }
+    ]
+  },
+  {
+    "Id": 233,
+    "RootElement": "MainSectionRegion",
+    "Fields": [],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "MainSectionRegion"
+      }
+    ]
+  },
+  {
+    "Id": 63,
+    "RootElement": "MainRegion",
+    "Fields": [],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "MainRegion"
+      }
+    ]
+  },
+  {
+    "Id": 83,
+    "RootElement": "MultiColumnRegion",
+    "Fields": [
+      {
+        "Name": "numberOfColumns",
+        "Path": "/Metadata/numberOfColumns",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "MultiColumnRegion",
+            "Property": "numberOfColumns"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 8
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "MultiColumnRegion"
+      }
+    ]
+  },
+  {
+    "Id": 171,
+    "RootElement": "NavRegion",
+    "Fields": [],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "NavRegion"
+      }
+    ]
+  },
+  {
+    "Id": 351,
+    "RootElement": "SmartTarget2ColumnRegion",
+    "Fields": [
+      {
+        "Name": "maxItems",
+        "Path": "/Metadata/maxItems",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "SmartTarget2ColumnRegion",
+            "Property": "maxItems"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 8
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "SmartTarget2ColumnRegion"
+      }
+    ]
+  },
+  {
+    "Id": 354,
+    "RootElement": "SmartTargetSmartTargetRegionRegion",
+    "Fields": [
+      {
+        "Name": "maxItems",
+        "Path": "/Metadata/maxItems",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "SmartTargetSmartTargetRegionRegion",
+            "Property": "maxItems"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 8
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "SmartTargetSmartTargetRegionRegion"
+      }
+    ]
+  },
+  {
+    "Id": 150,
+    "RootElement": "ToolsRegion",
+    "Fields": [],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "ToolsRegion"
+      }
+    ]
+  },
+  {
+    "Id": 80,
+    "RootElement": "Article",
+    "Fields": [
+      {
+        "Name": "headline",
+        "Path": "/Article/headline",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "Article",
+            "Property": "headline"
+          },
+          {
+            "Prefix": "s",
+            "Entity": "Article",
+            "Property": "headline"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "image",
+        "Path": "/Article/image",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "Article",
+            "Property": "image"
+          },
+          {
+            "Prefix": "s",
+            "Entity": "Article",
+            "Property": "image"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 5
+      },
+      {
+        "RootElementName": "Paragraph",
+        "Id": 77,
+        "Title": "Paragraph",
+        "Name": "articleBody",
+        "Path": "/Article/articleBody",
+        "IsMultiValue": true,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "Article",
+            "Property": "articleBody"
+          },
+          {
+            "Prefix": "s",
+            "Entity": "Article",
+            "Property": "articleBody"
+          }
+        ],
+        "Fields": [
+          {
+            "Name": "subheading",
+            "Path": "/Article/articleBody/subheading",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "Article",
+                "Property": "subheading"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "Paragraph",
+                "Property": "subheading"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          },
+          {
+            "Name": "content",
+            "Path": "/Article/articleBody/content",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "Article",
+                "Property": "content"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "Paragraph",
+                "Property": "content"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 2
+          },
+          {
+            "Name": "media",
+            "Path": "/Article/articleBody/media",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "Article",
+                "Property": "media"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "Paragraph",
+                "Property": "media"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 5
+          },
+          {
+            "Name": "caption",
+            "Path": "/Article/articleBody/caption",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "Article",
+                "Property": "caption"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "Paragraph",
+                "Property": "caption"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          }
+        ],
+        "FieldType": 4
+      },
+      {
+        "RootElementName": "StandardMetadata",
+        "Id": 66,
+        "Title": "Standard Metadata",
+        "Name": "standardMeta",
+        "Path": "/Metadata/standardMeta",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "Article",
+            "Property": "standardMeta"
+          }
+        ],
+        "Fields": [
+          {
+            "Name": "dateCreated",
+            "Path": "/Metadata/standardMeta/dateCreated",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "Article",
+                "Property": "dateCreated"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "StandardMetadata",
+                "Property": "dateCreated"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Article",
+                "Property": "dateCreated"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 9
+          },
+          {
+            "Name": "description",
+            "Path": "/Metadata/standardMeta/description",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "Article",
+                "Property": "description"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "StandardMetadata",
+                "Property": "description"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 1
+          },
+          {
+            "Name": "name",
+            "Path": "/Metadata/standardMeta/name",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "Article",
+                "Property": "name"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "StandardMetadata",
+                "Property": "name"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          },
+          {
+            "Name": "introText",
+            "Path": "/Metadata/standardMeta/introText",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "Article",
+                "Property": "introText"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "StandardMetadata",
+                "Property": "introText"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          },
+          {
+            "Name": "author",
+            "Path": "/Metadata/standardMeta/author",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "Article",
+                "Property": "author"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "StandardMetadata",
+                "Property": "author"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          }
+        ],
+        "FieldType": 4
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "Article"
+      },
+      {
+        "Prefix": "s",
+        "Entity": "Article"
+      }
+    ]
+  },
+  {
+    "Id": 96,
+    "RootElement": "LessVariables",
+    "Fields": [
+      {
+        "Name": "brand-primary",
+        "Path": "/LessVariables/brand-primary",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "LessVariables",
+            "Property": "brand-primary"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "navbar-default-bg",
+        "Path": "/LessVariables/navbar-default-bg",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "LessVariables",
+            "Property": "navbar-default-bg"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "body-bg",
+        "Path": "/LessVariables/body-bg",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "LessVariables",
+            "Property": "body-bg"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "page-footer-bg-color",
+        "Path": "/LessVariables/page-footer-bg-color",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "LessVariables",
+            "Property": "page-footer-bg-color"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "font-family-sans-serif",
+        "Path": "/LessVariables/font-family-sans-serif",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "LessVariables",
+            "Property": "font-family-sans-serif"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "text-color",
+        "Path": "/LessVariables/text-color",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "LessVariables",
+            "Property": "text-color"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "headings-font-family",
+        "Path": "/LessVariables/headings-font-family",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "LessVariables",
+            "Property": "headings-font-family"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "headings-color",
+        "Path": "/LessVariables/headings-color",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "LessVariables",
+            "Property": "headings-color"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "LessVariables"
+      }
+    ]
+  },
+  {
+    "Id": 70,
+    "RootElement": "ComponentTemplateMetadata",
+    "Fields": [
+      {
+        "Name": "controller",
+        "Path": "/Metadata/controller",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ComponentTemplateMetadata",
+            "Property": "controller"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "action",
+        "Path": "/Metadata/action",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ComponentTemplateMetadata",
+            "Property": "action"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "routeValues",
+        "Path": "/Metadata/routeValues",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ComponentTemplateMetadata",
+            "Property": "routeValues"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "view",
+        "Path": "/Metadata/view",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ComponentTemplateMetadata",
+            "Property": "view"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "regionView",
+        "Path": "/Metadata/regionView",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ComponentTemplateMetadata",
+            "Property": "regionView"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "regionName",
+        "Path": "/Metadata/regionName",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ComponentTemplateMetadata",
+            "Property": "regionName"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "htmlClasses",
+        "Path": "/Metadata/htmlClasses",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ComponentTemplateMetadata",
+            "Property": "htmlClasses"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "ComponentTemplateMetadata"
+      }
+    ]
+  },
+  {
+    "Id": 64,
+    "RootElement": "ContentPage",
+    "Fields": [
+      {
+        "Name": "sitemapKeyword",
+        "Path": "/Metadata/sitemapKeyword",
+        "IsMultiValue": true,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ContentPage",
+            "Property": "sitemapKeyword"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 3
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "ContentPage"
+      }
+    ]
+  },
+  {
+    "Id": 87,
+    "RootElement": "ContentQuery",
+    "Fields": [
+      {
+        "Name": "headline",
+        "Path": "/ContentQuery/headline",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ContentQuery",
+            "Property": "headline"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "RootElementName": "EmbeddedLink",
+        "Id": 67,
+        "Title": "Link",
+        "Name": "link",
+        "Path": "/ContentQuery/link",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ContentQuery",
+            "Property": "link"
+          }
+        ],
+        "Fields": [
+          {
+            "Name": "linkText",
+            "Path": "/ContentQuery/link/linkText",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "ContentQuery",
+                "Property": "linkText"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "EmbeddedLink",
+                "Property": "linkText"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Thing",
+                "Property": "name"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          },
+          {
+            "Name": "externalLink",
+            "Path": "/ContentQuery/link/externalLink",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "ContentQuery",
+                "Property": "externalLink"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "EmbeddedLink",
+                "Property": "externalLink"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Thing",
+                "Property": "url"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 7
+          },
+          {
+            "Name": "internalLink",
+            "Path": "/ContentQuery/link/internalLink",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "ContentQuery",
+                "Property": "internalLink"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "EmbeddedLink",
+                "Property": "internalLink"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Thing",
+                "Property": "url"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 6
+          },
+          {
+            "Name": "alternateText",
+            "Path": "/ContentQuery/link/alternateText",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "ContentQuery",
+                "Property": "alternateText"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "EmbeddedLink",
+                "Property": "alternateText"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Thing",
+                "Property": "description"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          }
+        ],
+        "FieldType": 4
+      },
+      {
+        "Name": "contentType",
+        "Path": "/Metadata/contentType",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ContentQuery",
+            "Property": "contentType"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 3
+      },
+      {
+        "Name": "pageSize",
+        "Path": "/Metadata/pageSize",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ContentQuery",
+            "Property": "pageSize"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 8
+      },
+      {
+        "Name": "sort",
+        "Path": "/Metadata/sort",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ContentQuery",
+            "Property": "sort"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 3
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "ContentQuery"
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "RootElement": "DefaultMultimediaSchema",
+    "Fields": [],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "DefaultMultimediaSchema"
+      }
+    ]
+  },
+  {
+    "Id": 169,
+    "RootElement": "Download",
+    "Fields": [
+      {
+        "Name": "description",
+        "Path": "/Metadata/description",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "Download",
+            "Property": "description"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "Download"
+      }
+    ]
+  },
+  {
+    "Id": 363,
+    "RootElement": "DownloadItem",
+    "Fields": [
+      {
+        "Name": "title",
+        "Path": "/DownloadItem/title",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "DownloadItem",
+            "Property": "title"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "description",
+        "Path": "/DownloadItem/description",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "DownloadItem",
+            "Property": "description"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "downloadLink",
+        "Path": "/DownloadItem/downloadLink",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "DownloadItem",
+            "Property": "downloadLink"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 6
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "DownloadItem"
+      }
+    ]
+  },
+  {
+    "Id": 350,
+    "RootElement": "SmartTargetSettings",
+    "Fields": [
+      {
+        "Name": "allowDuplicationOnSamePageConfig",
+        "Path": "/SmartTargetSettings/allowDuplicationOnSamePageConfig",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "SmartTargetSettings",
+            "Property": "allowDuplicationOnSamePageConfig"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "smartTargetEntityPromotion",
+        "Path": "/SmartTargetSettings/smartTargetEntityPromotion",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "SmartTargetSettings",
+            "Property": "smartTargetEntityPromotion"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "SmartTargetSettings"
+      }
+    ]
+  },
+  {
+    "Id": 348,
+    "RootElement": "ExperienceOptimizationPageTemplateMetadata",
+    "Fields": [
+      {
+        "Name": "includes",
+        "Path": "/Metadata/includes",
+        "IsMultiValue": true,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ExperienceOptimizationPageTemplateMetadata",
+            "Property": "includes"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "view",
+        "Path": "/Metadata/view",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ExperienceOptimizationPageTemplateMetadata",
+            "Property": "view"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "RootElementName": "SmartTargetRegionMetadata",
+        "Id": 347,
+        "Title": "Experience Optimization Region Metadata",
+        "Name": "regions",
+        "Path": "/Metadata/regions",
+        "IsMultiValue": true,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ExperienceOptimizationPageTemplateMetadata",
+            "Property": "regions"
+          }
+        ],
+        "Fields": [
+          {
+            "Name": "view",
+            "Path": "/Metadata/regions/view",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "ExperienceOptimizationPageTemplateMetadata",
+                "Property": "view"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "SmartTargetRegionMetadata",
+                "Property": "view"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          },
+          {
+            "Name": "name",
+            "Path": "/Metadata/regions/name",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "ExperienceOptimizationPageTemplateMetadata",
+                "Property": "name"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "SmartTargetRegionMetadata",
+                "Property": "name"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          },
+          {
+            "Name": "maxItems",
+            "Path": "/Metadata/regions/maxItems",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "ExperienceOptimizationPageTemplateMetadata",
+                "Property": "maxItems"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "SmartTargetRegionMetadata",
+                "Property": "maxItems"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 8
+          }
+        ],
+        "FieldType": 4
+      },
+      {
+        "Name": "allowDuplicationOnSamePage",
+        "Path": "/Metadata/allowDuplicationOnSamePage",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ExperienceOptimizationPageTemplateMetadata",
+            "Property": "allowDuplicationOnSamePage"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "htmlClasses",
+        "Path": "/Metadata/htmlClasses",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ExperienceOptimizationPageTemplateMetadata",
+            "Property": "htmlClasses"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "ExperienceOptimizationPageTemplateMetadata"
+      }
+    ]
+  },
+  {
+    "Id": 370,
+    "RootElement": "ExternalContentLibraryStubSchemabrightcove",
+    "Fields": [],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "ExternalContentLibraryStubSchemabrightcove"
+      }
+    ]
+  },
+  {
+    "Id": 368,
+    "RootElement": "ExternalContentLibraryStubSchemacan",
+    "Fields": [],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "ExternalContentLibraryStubSchemacan"
+      }
+    ]
+  },
+  {
+    "Id": 365,
+    "RootElement": "ExternalContentLibraryStubSchemadow",
+    "Fields": [],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "ExternalContentLibraryStubSchemadow"
+      }
+    ]
+  },
+  {
+    "Id": 369,
+    "RootElement": "ExternalContentLibraryStubSchemadow",
+    "Fields": [],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "ExternalContentLibraryStubSchemadow"
+      }
+    ]
+  },
+  {
+    "Id": 371,
+    "RootElement": "ExternalContentLibraryStubSchemaqua",
+    "Fields": [],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "ExternalContentLibraryStubSchemaqua"
+      }
+    ]
+  },
+  {
+    "Id": 90,
+    "RootElement": "Favicon",
+    "Fields": [],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "Favicon"
+      }
+    ]
+  },
+  {
+    "Id": 104,
+    "RootElement": "GeneralConfiguration",
+    "Fields": [
+      {
+        "Name": "name",
+        "Path": "/GeneralConfiguration/name",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "GeneralConfiguration",
+            "Property": "name"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "RootElementName": "NameValuePair",
+        "Id": 103,
+        "Title": "Name Value Pair",
+        "Name": "settings",
+        "Path": "/GeneralConfiguration/settings",
+        "IsMultiValue": true,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "GeneralConfiguration",
+            "Property": "settings"
+          }
+        ],
+        "Fields": [
+          {
+            "Name": "name",
+            "Path": "/GeneralConfiguration/settings/name",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "GeneralConfiguration",
+                "Property": "name"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "NameValuePair",
+                "Property": "name"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          },
+          {
+            "Name": "value",
+            "Path": "/GeneralConfiguration/settings/value",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "GeneralConfiguration",
+                "Property": "value"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "NameValuePair",
+                "Property": "value"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          }
+        ],
+        "FieldType": 4
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "GeneralConfiguration"
+      }
+    ]
+  },
+  {
+    "Id": 84,
+    "RootElement": "HomePage",
+    "Fields": [
+      {
+        "Name": "sitemapKeyword",
+        "Path": "/Metadata/sitemapKeyword",
+        "IsMultiValue": true,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "HomePage",
+            "Property": "sitemapKeyword"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 3
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "HomePage"
+      }
+    ]
+  },
+  {
+    "Id": 98,
+    "RootElement": "HtmlDesignConfig",
+    "Fields": [
+      {
+        "Name": "design",
+        "Path": "/HtmlDesignConfig/design",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "HtmlDesignConfig",
+            "Property": "design"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 5
+      },
+      {
+        "Name": "build",
+        "Path": "/HtmlDesignConfig/build",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "HtmlDesignConfig",
+            "Property": "build"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 5
+      },
+      {
+        "Name": "version",
+        "Path": "/HtmlDesignConfig/version",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "HtmlDesignConfig",
+            "Property": "version"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "favicon",
+        "Path": "/HtmlDesignConfig/favicon",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "HtmlDesignConfig",
+            "Property": "favicon"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 5
+      },
+      {
+        "Name": "variables",
+        "Path": "/HtmlDesignConfig/variables",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "HtmlDesignConfig",
+            "Property": "variables"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 6
+      },
+      {
+        "Name": "code",
+        "Path": "/HtmlDesignConfig/code",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "HtmlDesignConfig",
+            "Property": "code"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 1
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "HtmlDesignConfig"
+      }
+    ]
+  },
+  {
+    "Id": 78,
+    "RootElement": "Image",
+    "Fields": [
+      {
+        "Name": "altText",
+        "Path": "/Metadata/altText",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "Image",
+            "Property": "altText"
+          },
+          {
+            "Prefix": "s",
+            "Entity": "ImageObject",
+            "Property": "name"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "Image"
+      },
+      {
+        "Prefix": "s",
+        "Entity": "ImageObject"
+      }
+    ]
+  },
+  {
+    "Id": 91,
+    "RootElement": "IncludePage",
+    "Fields": [],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "IncludePage"
+      }
+    ]
+  },
+  {
+    "Id": 124,
+    "RootElement": "IncludePageFooter",
+    "Fields": [],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "IncludePageFooter"
+      }
+    ]
+  },
+  {
+    "Id": 173,
+    "RootElement": "IncludePageHeader",
+    "Fields": [],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "IncludePageHeader"
+      }
+    ]
+  },
+  {
+    "Id": 165,
+    "RootElement": "IncludePageLeft",
+    "Fields": [],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "IncludePageLeft"
+      }
+    ]
+  },
+  {
+    "Id": 178,
+    "RootElement": "IncludePageTools",
+    "Fields": [],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "IncludePageTools"
+      }
+    ]
+  },
+  {
+    "Id": 69,
+    "RootElement": "ItemList",
+    "Fields": [
+      {
+        "Name": "headline",
+        "Path": "/ItemList/headline",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ItemList",
+            "Property": "headline"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "RootElementName": "LinkedContent",
+        "Id": 68,
+        "Title": "Item List Element",
+        "Name": "itemListElement",
+        "Path": "/ItemList/itemListElement",
+        "IsMultiValue": true,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ItemList",
+            "Property": "itemListElement"
+          }
+        ],
+        "Fields": [
+          {
+            "Name": "subheading",
+            "Path": "/ItemList/itemListElement/subheading",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "ItemList",
+                "Property": "subheading"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "LinkedContent",
+                "Property": "subheading"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          },
+          {
+            "Name": "content",
+            "Path": "/ItemList/itemListElement/content",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "ItemList",
+                "Property": "content"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "LinkedContent",
+                "Property": "content"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 2
+          },
+          {
+            "Name": "media",
+            "Path": "/ItemList/itemListElement/media",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "ItemList",
+                "Property": "media"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "LinkedContent",
+                "Property": "media"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 5
+          },
+          {
+            "RootElementName": "EmbeddedLink",
+            "Id": 67,
+            "Title": "Link",
+            "Name": "link",
+            "Path": "/ItemList/itemListElement/link",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "ItemList",
+                "Property": "link"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "LinkedContent",
+                "Property": "link"
+              }
+            ],
+            "Fields": [
+              {
+                "Name": "linkText",
+                "Path": "/ItemList/itemListElement/link/linkText",
+                "IsMultiValue": false,
+                "Semantics": [
+                  {
+                    "Prefix": "tri",
+                    "Entity": "ItemList",
+                    "Property": "linkText"
+                  },
+                  {
+                    "Prefix": "tri",
+                    "Entity": "LinkedContent",
+                    "Property": "linkText"
+                  },
+                  {
+                    "Prefix": "tri",
+                    "Entity": "EmbeddedLink",
+                    "Property": "linkText"
+                  },
+                  {
+                    "Prefix": "s",
+                    "Entity": "Thing",
+                    "Property": "name"
+                  }
+                ],
+                "Fields": [],
+                "FieldType": 0
+              },
+              {
+                "Name": "externalLink",
+                "Path": "/ItemList/itemListElement/link/externalLink",
+                "IsMultiValue": false,
+                "Semantics": [
+                  {
+                    "Prefix": "tri",
+                    "Entity": "ItemList",
+                    "Property": "externalLink"
+                  },
+                  {
+                    "Prefix": "tri",
+                    "Entity": "LinkedContent",
+                    "Property": "externalLink"
+                  },
+                  {
+                    "Prefix": "tri",
+                    "Entity": "EmbeddedLink",
+                    "Property": "externalLink"
+                  },
+                  {
+                    "Prefix": "s",
+                    "Entity": "Thing",
+                    "Property": "url"
+                  }
+                ],
+                "Fields": [],
+                "FieldType": 7
+              },
+              {
+                "Name": "internalLink",
+                "Path": "/ItemList/itemListElement/link/internalLink",
+                "IsMultiValue": false,
+                "Semantics": [
+                  {
+                    "Prefix": "tri",
+                    "Entity": "ItemList",
+                    "Property": "internalLink"
+                  },
+                  {
+                    "Prefix": "tri",
+                    "Entity": "LinkedContent",
+                    "Property": "internalLink"
+                  },
+                  {
+                    "Prefix": "tri",
+                    "Entity": "EmbeddedLink",
+                    "Property": "internalLink"
+                  },
+                  {
+                    "Prefix": "s",
+                    "Entity": "Thing",
+                    "Property": "url"
+                  }
+                ],
+                "Fields": [],
+                "FieldType": 6
+              },
+              {
+                "Name": "alternateText",
+                "Path": "/ItemList/itemListElement/link/alternateText",
+                "IsMultiValue": false,
+                "Semantics": [
+                  {
+                    "Prefix": "tri",
+                    "Entity": "ItemList",
+                    "Property": "alternateText"
+                  },
+                  {
+                    "Prefix": "tri",
+                    "Entity": "LinkedContent",
+                    "Property": "alternateText"
+                  },
+                  {
+                    "Prefix": "tri",
+                    "Entity": "EmbeddedLink",
+                    "Property": "alternateText"
+                  },
+                  {
+                    "Prefix": "s",
+                    "Entity": "Thing",
+                    "Property": "description"
+                  }
+                ],
+                "Fields": [],
+                "FieldType": 0
+              }
+            ],
+            "FieldType": 4
+          }
+        ],
+        "FieldType": 4
+      },
+      {
+        "RootElementName": "StandardMetadata",
+        "Id": 66,
+        "Title": "Standard Metadata",
+        "Name": "standardMeta",
+        "Path": "/Metadata/standardMeta",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ItemList",
+            "Property": "standardMeta"
+          }
+        ],
+        "Fields": [
+          {
+            "Name": "dateCreated",
+            "Path": "/Metadata/standardMeta/dateCreated",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "ItemList",
+                "Property": "dateCreated"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "StandardMetadata",
+                "Property": "dateCreated"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Article",
+                "Property": "dateCreated"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 9
+          },
+          {
+            "Name": "description",
+            "Path": "/Metadata/standardMeta/description",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "ItemList",
+                "Property": "description"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "StandardMetadata",
+                "Property": "description"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 1
+          },
+          {
+            "Name": "name",
+            "Path": "/Metadata/standardMeta/name",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "ItemList",
+                "Property": "name"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "StandardMetadata",
+                "Property": "name"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          },
+          {
+            "Name": "introText",
+            "Path": "/Metadata/standardMeta/introText",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "ItemList",
+                "Property": "introText"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "StandardMetadata",
+                "Property": "introText"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          },
+          {
+            "Name": "author",
+            "Path": "/Metadata/standardMeta/author",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "ItemList",
+                "Property": "author"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "StandardMetadata",
+                "Property": "author"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          }
+        ],
+        "FieldType": 4
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "ItemList"
+      }
+    ]
+  },
+  {
+    "Id": 129,
+    "RootElement": "LanguageSelectorConfiguration",
+    "Fields": [
+      {
+        "Name": "defaultContentLink",
+        "Path": "/LanguageSelectorConfiguration/defaultContentLink",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "LanguageSelectorConfiguration",
+            "Property": "defaultContentLink"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 6
+      },
+      {
+        "Name": "suppressLocalizations",
+        "Path": "/LanguageSelectorConfiguration/suppressLocalizations",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "LanguageSelectorConfiguration",
+            "Property": "suppressLocalizations"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "LanguageSelectorConfiguration"
+      }
+    ]
+  },
+  {
+    "Id": 86,
+    "RootElement": "LinkList",
+    "Fields": [
+      {
+        "Name": "headline",
+        "Path": "/LinkList/headline",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "LinkList",
+            "Property": "headline"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "RootElementName": "EmbeddedLink",
+        "Id": 67,
+        "Title": "Link",
+        "Name": "link",
+        "Path": "/LinkList/link",
+        "IsMultiValue": true,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "LinkList",
+            "Property": "link"
+          }
+        ],
+        "Fields": [
+          {
+            "Name": "linkText",
+            "Path": "/LinkList/link/linkText",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "LinkList",
+                "Property": "linkText"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "EmbeddedLink",
+                "Property": "linkText"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Thing",
+                "Property": "name"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          },
+          {
+            "Name": "externalLink",
+            "Path": "/LinkList/link/externalLink",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "LinkList",
+                "Property": "externalLink"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "EmbeddedLink",
+                "Property": "externalLink"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Thing",
+                "Property": "url"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 7
+          },
+          {
+            "Name": "internalLink",
+            "Path": "/LinkList/link/internalLink",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "LinkList",
+                "Property": "internalLink"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "EmbeddedLink",
+                "Property": "internalLink"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Thing",
+                "Property": "url"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 6
+          },
+          {
+            "Name": "alternateText",
+            "Path": "/LinkList/link/alternateText",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "LinkList",
+                "Property": "alternateText"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "EmbeddedLink",
+                "Property": "alternateText"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Thing",
+                "Property": "description"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          }
+        ],
+        "FieldType": 4
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "LinkList"
+      }
+    ]
+  },
+  {
+    "Id": 114,
+    "RootElement": "ModuleConfiguration",
+    "Fields": [
+      {
+        "Name": "name",
+        "Path": "/ModuleConfiguration/name",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ModuleConfiguration",
+            "Property": "name"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "softwareVersion",
+        "Path": "/ModuleConfiguration/softwareVersion",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ModuleConfiguration",
+            "Property": "softwareVersion"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 8
+      },
+      {
+        "Name": "url",
+        "Path": "/ModuleConfiguration/url",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ModuleConfiguration",
+            "Property": "url"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 7
+      },
+      {
+        "Name": "isActive",
+        "Path": "/ModuleConfiguration/isActive",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ModuleConfiguration",
+            "Property": "isActive"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "RootElementName": "ModuleDependency",
+        "Id": 112,
+        "Title": "Module Dependency",
+        "Name": "dependencies",
+        "Path": "/ModuleConfiguration/dependencies",
+        "IsMultiValue": true,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ModuleConfiguration",
+            "Property": "dependencies"
+          }
+        ],
+        "Fields": [
+          {
+            "Name": "module",
+            "Path": "/ModuleConfiguration/dependencies/module",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "ModuleConfiguration",
+                "Property": "module"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "ModuleDependency",
+                "Property": "module"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 6
+          },
+          {
+            "Name": "softwareVersion",
+            "Path": "/ModuleConfiguration/dependencies/softwareVersion",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "ModuleConfiguration",
+                "Property": "softwareVersion"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "ModuleDependency",
+                "Property": "softwareVersion"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 8
+          }
+        ],
+        "FieldType": 4
+      },
+      {
+        "Name": "furtherConfiguration",
+        "Path": "/ModuleConfiguration/furtherConfiguration",
+        "IsMultiValue": true,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ModuleConfiguration",
+            "Property": "furtherConfiguration"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 6
+      },
+      {
+        "Name": "resource",
+        "Path": "/ModuleConfiguration/resource",
+        "IsMultiValue": true,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ModuleConfiguration",
+            "Property": "resource"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 6
+      },
+      {
+        "Name": "designConfiguration",
+        "Path": "/ModuleConfiguration/designConfiguration",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ModuleConfiguration",
+            "Property": "designConfiguration"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 6
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "ModuleConfiguration"
+      }
+    ]
+  },
+  {
+    "Id": 113,
+    "RootElement": "ModuleDesignConfig",
+    "Fields": [
+      {
+        "Name": "design",
+        "Path": "/ModuleDesignConfig/design",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ModuleDesignConfig",
+            "Property": "design"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 5
+      },
+      {
+        "Name": "variables",
+        "Path": "/ModuleDesignConfig/variables",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ModuleDesignConfig",
+            "Property": "variables"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 6
+      },
+      {
+        "Name": "code",
+        "Path": "/ModuleDesignConfig/code",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ModuleDesignConfig",
+            "Property": "code"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 1
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "ModuleDesignConfig"
+      }
+    ]
+  },
+  {
+    "Id": 132,
+    "RootElement": "NavigationConfiguration",
+    "Fields": [
+      {
+        "Name": "navigationType",
+        "Path": "/Metadata/navigationType",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "NavigationConfiguration",
+            "Property": "navigationType"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 3
+      },
+      {
+        "Name": "externalLinkTemplate",
+        "Path": "/Metadata/externalLinkTemplate",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "NavigationConfiguration",
+            "Property": "externalLinkTemplate"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "navigationTextFieldPaths",
+        "Path": "/Metadata/navigationTextFieldPaths",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "NavigationConfiguration",
+            "Property": "navigationTextFieldPaths"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "NavigationConfiguration"
+      }
+    ]
+  },
+  {
+    "Id": 79,
+    "RootElement": "NewsArticle",
+    "Fields": [
+      {
+        "Name": "headline",
+        "Path": "/NewsArticle/headline",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "NewsArticle",
+            "Property": "headline"
+          },
+          {
+            "Prefix": "s",
+            "Entity": "Article",
+            "Property": "headline"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "image",
+        "Path": "/NewsArticle/image",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "NewsArticle",
+            "Property": "image"
+          },
+          {
+            "Prefix": "s",
+            "Entity": "Article",
+            "Property": "image"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 5
+      },
+      {
+        "RootElementName": "Paragraph",
+        "Id": 77,
+        "Title": "Paragraph",
+        "Name": "articleBody",
+        "Path": "/NewsArticle/articleBody",
+        "IsMultiValue": true,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "NewsArticle",
+            "Property": "articleBody"
+          },
+          {
+            "Prefix": "s",
+            "Entity": "Article",
+            "Property": "articleBody"
+          }
+        ],
+        "Fields": [
+          {
+            "Name": "subheading",
+            "Path": "/NewsArticle/articleBody/subheading",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "NewsArticle",
+                "Property": "subheading"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "Paragraph",
+                "Property": "subheading"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          },
+          {
+            "Name": "content",
+            "Path": "/NewsArticle/articleBody/content",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "NewsArticle",
+                "Property": "content"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "Paragraph",
+                "Property": "content"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 2
+          },
+          {
+            "Name": "media",
+            "Path": "/NewsArticle/articleBody/media",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "NewsArticle",
+                "Property": "media"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "Paragraph",
+                "Property": "media"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 5
+          },
+          {
+            "Name": "caption",
+            "Path": "/NewsArticle/articleBody/caption",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "NewsArticle",
+                "Property": "caption"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "Paragraph",
+                "Property": "caption"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          }
+        ],
+        "FieldType": 4
+      },
+      {
+        "RootElementName": "StandardMetadata",
+        "Id": 66,
+        "Title": "Standard Metadata",
+        "Name": "standardMeta",
+        "Path": "/Metadata/standardMeta",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "NewsArticle",
+            "Property": "standardMeta"
+          }
+        ],
+        "Fields": [
+          {
+            "Name": "dateCreated",
+            "Path": "/Metadata/standardMeta/dateCreated",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "NewsArticle",
+                "Property": "dateCreated"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "StandardMetadata",
+                "Property": "dateCreated"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Article",
+                "Property": "dateCreated"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 9
+          },
+          {
+            "Name": "description",
+            "Path": "/Metadata/standardMeta/description",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "NewsArticle",
+                "Property": "description"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "StandardMetadata",
+                "Property": "description"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 1
+          },
+          {
+            "Name": "name",
+            "Path": "/Metadata/standardMeta/name",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "NewsArticle",
+                "Property": "name"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "StandardMetadata",
+                "Property": "name"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          },
+          {
+            "Name": "introText",
+            "Path": "/Metadata/standardMeta/introText",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "NewsArticle",
+                "Property": "introText"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "StandardMetadata",
+                "Property": "introText"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          },
+          {
+            "Name": "author",
+            "Path": "/Metadata/standardMeta/author",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "NewsArticle",
+                "Property": "author"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "StandardMetadata",
+                "Property": "author"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          }
+        ],
+        "FieldType": 4
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "NewsArticle"
+      },
+      {
+        "Prefix": "s",
+        "Entity": "Article"
+      }
+    ]
+  },
+  {
+    "Id": 161,
+    "RootElement": "NewsPage",
+    "Fields": [
+      {
+        "Name": "sitemapKeyword",
+        "Path": "/Metadata/sitemapKeyword",
+        "IsMultiValue": true,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "NewsPage",
+            "Property": "sitemapKeyword"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 3
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "NewsPage"
+      }
+    ]
+  },
+  {
+    "Id": 127,
+    "RootElement": "NotificationBar",
+    "Fields": [
+      {
+        "Name": "headline",
+        "Path": "/NotificationBar/headline",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "NotificationBar",
+            "Property": "headline"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "text",
+        "Path": "/NotificationBar/text",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "NotificationBar",
+            "Property": "text"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 1
+      },
+      {
+        "Name": "continue",
+        "Path": "/NotificationBar/continue",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "NotificationBar",
+            "Property": "continue"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "RootElementName": "EmbeddedLink",
+        "Id": 67,
+        "Title": "Link",
+        "Name": "link",
+        "Path": "/NotificationBar/link",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "NotificationBar",
+            "Property": "link"
+          }
+        ],
+        "Fields": [
+          {
+            "Name": "linkText",
+            "Path": "/NotificationBar/link/linkText",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "NotificationBar",
+                "Property": "linkText"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "EmbeddedLink",
+                "Property": "linkText"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Thing",
+                "Property": "name"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          },
+          {
+            "Name": "externalLink",
+            "Path": "/NotificationBar/link/externalLink",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "NotificationBar",
+                "Property": "externalLink"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "EmbeddedLink",
+                "Property": "externalLink"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Thing",
+                "Property": "url"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 7
+          },
+          {
+            "Name": "internalLink",
+            "Path": "/NotificationBar/link/internalLink",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "NotificationBar",
+                "Property": "internalLink"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "EmbeddedLink",
+                "Property": "internalLink"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Thing",
+                "Property": "url"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 6
+          },
+          {
+            "Name": "alternateText",
+            "Path": "/NotificationBar/link/alternateText",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "NotificationBar",
+                "Property": "alternateText"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "EmbeddedLink",
+                "Property": "alternateText"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Thing",
+                "Property": "description"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          }
+        ],
+        "FieldType": 4
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "NotificationBar"
+      }
+    ]
+  },
+  {
+    "Id": 244,
+    "RootElement": "PageNavigationMetadata",
+    "Fields": [
+      {
+        "Name": "sitemapKeyword",
+        "Path": "/Metadata/sitemapKeyword",
+        "IsMultiValue": true,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "PageNavigationMetadata",
+            "Property": "sitemapKeyword"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 3
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "PageNavigationMetadata"
+      }
+    ]
+  },
+  {
+    "Id": 57,
+    "RootElement": "PageTemplateMetadata",
+    "Fields": [
+      {
+        "Name": "includes",
+        "Path": "/Metadata/includes",
+        "IsMultiValue": true,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "PageTemplateMetadata",
+            "Property": "includes"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "view",
+        "Path": "/Metadata/view",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "PageTemplateMetadata",
+            "Property": "view"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "RootElementName": "RegionMetadata",
+        "Id": 56,
+        "Title": "Region Metadata",
+        "Name": "regions",
+        "Path": "/Metadata/regions",
+        "IsMultiValue": true,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "PageTemplateMetadata",
+            "Property": "regions"
+          }
+        ],
+        "Fields": [
+          {
+            "Name": "view",
+            "Path": "/Metadata/regions/view",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "PageTemplateMetadata",
+                "Property": "view"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "RegionMetadata",
+                "Property": "view"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          },
+          {
+            "Name": "name",
+            "Path": "/Metadata/regions/name",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "PageTemplateMetadata",
+                "Property": "name"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "RegionMetadata",
+                "Property": "name"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          }
+        ],
+        "FieldType": 4
+      },
+      {
+        "Name": "htmlClasses",
+        "Path": "/Metadata/htmlClasses",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "PageTemplateMetadata",
+            "Property": "htmlClasses"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "PageTemplateMetadata"
+      }
+    ]
+  },
+  {
+    "Id": 146,
+    "RootElement": "Place",
+    "Fields": [
+      {
+        "Name": "name",
+        "Path": "/Place/name",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "Place",
+            "Property": "name"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "image",
+        "Path": "/Place/image",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "Place",
+            "Property": "image"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 5
+      },
+      {
+        "Name": "address",
+        "Path": "/Place/address",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "Place",
+            "Property": "address"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 2
+      },
+      {
+        "Name": "telephone",
+        "Path": "/Place/telephone",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "Place",
+            "Property": "telephone"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "faxNumber",
+        "Path": "/Place/faxNumber",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "Place",
+            "Property": "faxNumber"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "email",
+        "Path": "/Place/email",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "Place",
+            "Property": "email"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "RootElementName": "LocationMeta",
+        "Id": 145,
+        "Title": "Location Metadata",
+        "Name": "location",
+        "Path": "/Metadata/location",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "Place",
+            "Property": "location"
+          }
+        ],
+        "Fields": [
+          {
+            "Name": "latitude",
+            "Path": "/Metadata/location/latitude",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "Place",
+                "Property": "latitude"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "LocationMeta",
+                "Property": "latitude"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 8
+          },
+          {
+            "Name": "longitude",
+            "Path": "/Metadata/location/longitude",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "Place",
+                "Property": "longitude"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "LocationMeta",
+                "Property": "longitude"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 8
+          },
+          {
+            "Name": "query",
+            "Path": "/Metadata/location/query",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "Place",
+                "Property": "query"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "LocationMeta",
+                "Property": "query"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          }
+        ],
+        "FieldType": 4
+      },
+      {
+        "RootElementName": "StandardMetadata",
+        "Id": 66,
+        "Title": "Standard Metadata",
+        "Name": "standardMeta",
+        "Path": "/Metadata/standardMeta",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "Place",
+            "Property": "standardMeta"
+          }
+        ],
+        "Fields": [
+          {
+            "Name": "dateCreated",
+            "Path": "/Metadata/standardMeta/dateCreated",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "Place",
+                "Property": "dateCreated"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "StandardMetadata",
+                "Property": "dateCreated"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Article",
+                "Property": "dateCreated"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 9
+          },
+          {
+            "Name": "description",
+            "Path": "/Metadata/standardMeta/description",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "Place",
+                "Property": "description"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "StandardMetadata",
+                "Property": "description"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 1
+          },
+          {
+            "Name": "name",
+            "Path": "/Metadata/standardMeta/name",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "Place",
+                "Property": "name"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "StandardMetadata",
+                "Property": "name"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          },
+          {
+            "Name": "introText",
+            "Path": "/Metadata/standardMeta/introText",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "Place",
+                "Property": "introText"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "StandardMetadata",
+                "Property": "introText"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          },
+          {
+            "Name": "author",
+            "Path": "/Metadata/standardMeta/author",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "Place",
+                "Property": "author"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "StandardMetadata",
+                "Property": "author"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          }
+        ],
+        "FieldType": 4
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "Place"
+      }
+    ]
+  },
+  {
+    "Id": 204,
+    "RootElement": "PublicationMetadata",
+    "Fields": [
+      {
+        "Name": "siteId",
+        "Path": "/Metadata/siteId",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "PublicationMetadata",
+            "Property": "siteId"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "isMaster",
+        "Path": "/Metadata/isMaster",
+        "IsMultiValue": true,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "PublicationMetadata",
+            "Property": "isMaster"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "PublicationMetadata"
+      }
+    ]
+  },
+  {
+    "Id": 140,
+    "RootElement": "RedirectPage",
+    "Fields": [
+      {
+        "RootElementName": "EmbeddedLink",
+        "Id": 67,
+        "Title": "Link",
+        "Name": "redirect",
+        "Path": "/Metadata/redirect",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "RedirectPage",
+            "Property": "redirect"
+          }
+        ],
+        "Fields": [
+          {
+            "Name": "linkText",
+            "Path": "/Metadata/redirect/linkText",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "RedirectPage",
+                "Property": "linkText"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "EmbeddedLink",
+                "Property": "linkText"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Thing",
+                "Property": "name"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          },
+          {
+            "Name": "externalLink",
+            "Path": "/Metadata/redirect/externalLink",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "RedirectPage",
+                "Property": "externalLink"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "EmbeddedLink",
+                "Property": "externalLink"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Thing",
+                "Property": "url"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 7
+          },
+          {
+            "Name": "internalLink",
+            "Path": "/Metadata/redirect/internalLink",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "RedirectPage",
+                "Property": "internalLink"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "EmbeddedLink",
+                "Property": "internalLink"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Thing",
+                "Property": "url"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 6
+          },
+          {
+            "Name": "alternateText",
+            "Path": "/Metadata/redirect/alternateText",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "RedirectPage",
+                "Property": "alternateText"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "EmbeddedLink",
+                "Property": "alternateText"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Thing",
+                "Property": "description"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          }
+        ],
+        "FieldType": 4
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "RedirectPage"
+      }
+    ]
+  },
+  {
+    "Id": 157,
+    "RootElement": "RedirectPageMetadata",
+    "Fields": [
+      {
+        "RootElementName": "EmbeddedLink",
+        "Id": 67,
+        "Title": "Link",
+        "Name": "redirect",
+        "Path": "/Metadata/redirect",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "RedirectPageMetadata",
+            "Property": "redirect"
+          }
+        ],
+        "Fields": [
+          {
+            "Name": "linkText",
+            "Path": "/Metadata/redirect/linkText",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "RedirectPageMetadata",
+                "Property": "linkText"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "EmbeddedLink",
+                "Property": "linkText"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Thing",
+                "Property": "name"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          },
+          {
+            "Name": "externalLink",
+            "Path": "/Metadata/redirect/externalLink",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "RedirectPageMetadata",
+                "Property": "externalLink"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "EmbeddedLink",
+                "Property": "externalLink"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Thing",
+                "Property": "url"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 7
+          },
+          {
+            "Name": "internalLink",
+            "Path": "/Metadata/redirect/internalLink",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "RedirectPageMetadata",
+                "Property": "internalLink"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "EmbeddedLink",
+                "Property": "internalLink"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Thing",
+                "Property": "url"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 6
+          },
+          {
+            "Name": "alternateText",
+            "Path": "/Metadata/redirect/alternateText",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "RedirectPageMetadata",
+                "Property": "alternateText"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "EmbeddedLink",
+                "Property": "alternateText"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Thing",
+                "Property": "description"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          }
+        ],
+        "FieldType": 4
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "RedirectPageMetadata"
+      }
+    ]
+  },
+  {
+    "Id": 108,
+    "RootElement": "ResourcesCore",
+    "Fields": [
+      {
+        "Name": "readMoreLinkText",
+        "Path": "/ResourcesCore/readMoreLinkText",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ResourcesCore",
+            "Property": "readMoreLinkText"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "toggleNavigationText",
+        "Path": "/ResourcesCore/toggleNavigationText",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ResourcesCore",
+            "Property": "toggleNavigationText"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "sectionErrorMessage",
+        "Path": "/ResourcesCore/sectionErrorMessage",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ResourcesCore",
+            "Property": "sectionErrorMessage"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "todayText",
+        "Path": "/ResourcesCore/todayText",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ResourcesCore",
+            "Property": "todayText"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "yesterdayText",
+        "Path": "/ResourcesCore/yesterdayText",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ResourcesCore",
+            "Property": "yesterdayText"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "xDaysAgoText",
+        "Path": "/ResourcesCore/xDaysAgoText",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ResourcesCore",
+            "Property": "xDaysAgoText"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "showingItemsText",
+        "Path": "/ResourcesCore/showingItemsText",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ResourcesCore",
+            "Property": "showingItemsText"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "addressHeadingText",
+        "Path": "/ResourcesCore/addressHeadingText",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ResourcesCore",
+            "Property": "addressHeadingText"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "placeContactHeadingText",
+        "Path": "/ResourcesCore/placeContactHeadingText",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ResourcesCore",
+            "Property": "placeContactHeadingText"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "teleponeCaptionText",
+        "Path": "/ResourcesCore/teleponeCaptionText",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ResourcesCore",
+            "Property": "teleponeCaptionText"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "faxCaptionText",
+        "Path": "/ResourcesCore/faxCaptionText",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ResourcesCore",
+            "Property": "faxCaptionText"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "emailCaptionText",
+        "Path": "/ResourcesCore/emailCaptionText",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ResourcesCore",
+            "Property": "emailCaptionText"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "directionsLinkText",
+        "Path": "/ResourcesCore/directionsLinkText",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ResourcesCore",
+            "Property": "directionsLinkText"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "largeMapLinkText",
+        "Path": "/ResourcesCore/largeMapLinkText",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ResourcesCore",
+            "Property": "largeMapLinkText"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "visitUsSocialLinkTitle",
+        "Path": "/ResourcesCore/visitUsSocialLinkTitle",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ResourcesCore",
+            "Property": "visitUsSocialLinkTitle"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "shareOnSocialCaption",
+        "Path": "/ResourcesCore/shareOnSocialCaption",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ResourcesCore",
+            "Property": "shareOnSocialCaption"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "shareOnSocialLinkTitle",
+        "Path": "/ResourcesCore/shareOnSocialLinkTitle",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ResourcesCore",
+            "Property": "shareOnSocialLinkTitle"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "redirectEditorHintText",
+        "Path": "/ResourcesCore/redirectEditorHintText",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ResourcesCore",
+            "Property": "redirectEditorHintText"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "ResourcesCore"
+      }
+    ]
+  },
+  {
+    "Id": 110,
+    "RootElement": "ResourcesCustom",
+    "Fields": [
+      {
+        "Name": "defaultPageTitle",
+        "Path": "/ResourcesCustom/defaultPageTitle",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ResourcesCustom",
+            "Property": "defaultPageTitle"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "pageTitlePostfix",
+        "Path": "/ResourcesCustom/pageTitlePostfix",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ResourcesCustom",
+            "Property": "pageTitlePostfix"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "pageTitleSeparator",
+        "Path": "/ResourcesCustom/pageTitleSeparator",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "ResourcesCustom",
+            "Property": "pageTitleSeparator"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "ResourcesCustom"
+      }
+    ]
+  },
+  {
+    "Id": 158,
+    "RootElement": "SectionPage",
+    "Fields": [
+      {
+        "Name": "sitemapKeyword",
+        "Path": "/Metadata/sitemapKeyword",
+        "IsMultiValue": true,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "SectionPage",
+            "Property": "sitemapKeyword"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 3
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "SectionPage"
+      }
+    ]
+  },
+  {
+    "Id": 355,
+    "RootElement": "SmartTargetPageSchema",
+    "Fields": [],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "SmartTargetPageSchema"
+      }
+    ]
+  },
+  {
+    "Id": 176,
+    "RootElement": "SocialLinks",
+    "Fields": [
+      {
+        "RootElementName": "SocialLink",
+        "Id": 175,
+        "Title": "Social Link",
+        "Name": "link",
+        "Path": "/SocialLinks/link",
+        "IsMultiValue": true,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "SocialLinks",
+            "Property": "link"
+          }
+        ],
+        "Fields": [
+          {
+            "Name": "tag",
+            "Path": "/SocialLinks/link/tag",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "SocialLinks",
+                "Property": "tag"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "SocialLink",
+                "Property": "tag"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 3
+          },
+          {
+            "Name": "externalLink",
+            "Path": "/SocialLinks/link/externalLink",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "SocialLinks",
+                "Property": "externalLink"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "SocialLink",
+                "Property": "externalLink"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          }
+        ],
+        "FieldType": 4
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "SocialLinks"
+      }
+    ]
+  },
+  {
+    "Id": 100,
+    "RootElement": "Teaser",
+    "Fields": [
+      {
+        "Name": "headline",
+        "Path": "/Teaser/headline",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "Teaser",
+            "Property": "headline"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "content",
+        "Path": "/Teaser/content",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "Teaser",
+            "Property": "content"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "media",
+        "Path": "/Teaser/media",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "Teaser",
+            "Property": "media"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 5
+      },
+      {
+        "RootElementName": "EmbeddedLink",
+        "Id": 67,
+        "Title": "Link",
+        "Name": "link",
+        "Path": "/Teaser/link",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "Teaser",
+            "Property": "link"
+          }
+        ],
+        "Fields": [
+          {
+            "Name": "linkText",
+            "Path": "/Teaser/link/linkText",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "Teaser",
+                "Property": "linkText"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "EmbeddedLink",
+                "Property": "linkText"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Thing",
+                "Property": "name"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          },
+          {
+            "Name": "externalLink",
+            "Path": "/Teaser/link/externalLink",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "Teaser",
+                "Property": "externalLink"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "EmbeddedLink",
+                "Property": "externalLink"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Thing",
+                "Property": "url"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 7
+          },
+          {
+            "Name": "internalLink",
+            "Path": "/Teaser/link/internalLink",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "Teaser",
+                "Property": "internalLink"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "EmbeddedLink",
+                "Property": "internalLink"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Thing",
+                "Property": "url"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 6
+          },
+          {
+            "Name": "alternateText",
+            "Path": "/Teaser/link/alternateText",
+            "IsMultiValue": false,
+            "Semantics": [
+              {
+                "Prefix": "tri",
+                "Entity": "Teaser",
+                "Property": "alternateText"
+              },
+              {
+                "Prefix": "tri",
+                "Entity": "EmbeddedLink",
+                "Property": "alternateText"
+              },
+              {
+                "Prefix": "s",
+                "Entity": "Thing",
+                "Property": "description"
+              }
+            ],
+            "Fields": [],
+            "FieldType": 0
+          }
+        ],
+        "FieldType": 4
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "Teaser"
+      }
+    ]
+  },
+  {
+    "Id": 190,
+    "RootElement": "YouTubeVideo",
+    "Fields": [
+      {
+        "Name": "youTubeId",
+        "Path": "/Metadata/youTubeId",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "YouTubeVideo",
+            "Property": "youTubeId"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      },
+      {
+        "Name": "headline",
+        "Path": "/Metadata/headline",
+        "IsMultiValue": false,
+        "Semantics": [
+          {
+            "Prefix": "tri",
+            "Entity": "YouTubeVideo",
+            "Property": "headline"
+          }
+        ],
+        "Fields": [],
+        "FieldType": 0
+      }
+    ],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "YouTubeVideo"
+      }
+    ]
+  },
+  {
+    "Id": 92,
+    "RootElement": "ZIPfile",
+    "Fields": [],
+    "Semantics": [
+      {
+        "Prefix": "tri",
+        "Entity": "ZIPfile"
+      }
+    ]
+  }
+]

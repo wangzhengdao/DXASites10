@@ -1,0 +1,15 @@
+{
+  "itemList": 69,
+  "newsArticle": 79,
+  "article": 80,
+  "linkList": 86,
+  "contentQuery": 87,
+  "teaser": 100,
+  "resourcesCore": 108,
+  "resourcesCustom": 110,
+  "notificationBar": 127,
+  "languageSelectorConfiguration": 129,
+  "navigationConfiguration": 132,
+  "place": 146,
+  "socialLinks": 176
+}

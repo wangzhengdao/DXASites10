@@ -1,0 +1,22 @@
+{
+  "defaultLocalization": true,
+  "staging": true,
+  "mediaRoot": "/media/",
+  "siteLocalizations": [
+    {
+      "Id": "5",
+      "Path": "/",
+      "Language": "English",
+      "IsMaster": true
+    }
+  ],
+  "files": [
+    "/system/config/core.taxonomies.json",
+    "/system/config/core.json",
+    "/system/config/core.schemas.json",
+    "/system/config/smarttarget.json",
+    "/system/config/smarttarget.schemas.json",
+    "/system/config/smarttarget.templates.json"
+  ],
+  "dataPresentationTemplateUri": "tcm:5-205-32"
+}

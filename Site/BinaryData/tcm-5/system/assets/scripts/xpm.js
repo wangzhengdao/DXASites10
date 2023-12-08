@@ -1,0 +1,1 @@
+jQuery.fn.isInXpm=function(){var e=!1;return"undefined"!=typeof Tridion&&(Tridion.Type.resolveNamespace("Tridion.Web.UI.SiteEdit.Page")||Tridion.Type.resolveNamespace("Tridion.Web.UI.Editors.XPMCore.Controls.Page"))&&(e=!0),e},$(document).ready(function(){setTimeout(function(){$().isInXpm()&&($(".xpm-button").show(),$(".carousel").carousel("pause"))},5e3)});
